@@ -8,7 +8,7 @@
 
 |                                           프로필                                           |                    이름                     | 담당 기능     |
 | :----------------------------------------------------------------------------------------: | :-----------------------------------------: | :------------ |
-| <img src="https://avatars.githubusercontent.com/Ubermensch0608" width="100" height="100"/> | [우종원](https://github.com/Ubermensch0608) | 푸터          |
+| <img src="https://avatars.githubusercontent.com/Ubermensch0608" width="100" height="100"/> | [우종원](https://github.com/Ubermensch0608) | 푸터 , 팝업   |
 |  <img src="https://avatars.githubusercontent.com/crucial-sub" width="100" height="100"/>   |  [박중섭](https://github.com/crucial-sub)   | GNB           |
 |    <img src="https://avatars.githubusercontent.com/ttaerrim" width="100" height="100"/>    |    [이태림](https://github.com/ttaerrim)    | 동영상, 배너  |
 |   <img src="https://avatars.githubusercontent.com/penguin311" width="100" height="100"/>   |   [임수영](https://github.com/penguin311)   | 플라워 클래스 |
@@ -58,12 +58,12 @@ GNB
 
 푸터 영역
 
-- [ ] css로 레이아웃 구현 (IE8)
-- [ ] SNS 아이콘 클릭 시 링크 이동
+- [x] css로 레이아웃 구현 (IE8)
+- [x] SNS 아이콘 클릭 시 링크 이동
 
 팝업
 
-- [ ] 들어가면 팝업 이미지를 띄움
+- [x] 들어가면 팝업 이미지를 띄움
 - [ ] 클릭하면 외부 사이트로 이동
 
 ## 🗺 구현 기능

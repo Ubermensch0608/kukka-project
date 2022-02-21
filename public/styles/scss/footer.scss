@@ -2,9 +2,15 @@
   display: none;
 }
 
-.link {
+a.link {
   color: #f7f7f7;
-  text-decoration: none;
+
+  &:link {
+    text-decoration: none;
+  }
+  &:hover {
+    text-decoration: none;
+  }
 }
 
 .only_pc {
@@ -72,7 +78,7 @@ nav.section-info__faq::after {
   position: absolute;
   top: -60;
   right: 250px;
-  background-image: url(../kukka.png);
+  background-image: url(../../assets/kukka.png);
   background-position: 0 -612px;
   width: 150px;
   height: 63px;

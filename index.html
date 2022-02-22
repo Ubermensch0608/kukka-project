@@ -19,13 +19,45 @@
     <![endif]-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script src="/public/scripts/flower.js" defer></script>
+    <script src="/public/scripts/header.js" defer></script>
   </head>
 
   <body>
     <div class="App__container">
-      <header>header</header>
+      <div class="header">
+        <div class="header__container">
+          <h1 class="header__logobox">
+            <a href="/">
+              <!-- 모바일에선 mobile__logo로 변경 -->
+              <img
+                class="logo--desktop"
+                src="./public/assets/desktop__logo.png"
+                alt="desktop__logo"
+              />
+            </a>
+          </h1>
+          <div class="header__navbar">
+            <ul class="header__navbar--list">
+              <li class="item menu--video">동영상</li>
+              <li class="item menu--flower">플라워클래스</li>
+            </ul>
+          </div>
+          <div class="header__navicon">
+            <a class="navicon--link">
+              <img
+                class="navicon"
+                src="./public/assets/profile.png"
+                alt="profile"
+              />
+            </a>
+            <a class="navicon--link">
+              <img class="navicon" src="./public/assets/cart.png" alt="cart" />
+            </a>
+          </div>
+        </div>
+      </div>
       <div class="section__container">
-        <section>
+        <section class="section__video">
           <iframe
             class="video__youtube"
             src="https://www.youtube.com/embed/4-eFPCvI1yk"
@@ -36,37 +68,60 @@
           ></iframe>
         </section>
 
-        <section>
+        <section class="section__flower">
           <div class="flower-container">
             <div class="flower-contents-head">
               <h3>꽃과 함께 하는 일상, <b>플라워클래스</b></h3>
             </div>
-            <div class="flower-products">
-              <div class="event-class">
-                <a>
-                  <img id="image-1" src="/public/assets/flower_event_1.jpeg" />
-                  <span>새로운 일상을 경험하는</span>
-                  <span id="text-1">1월 플라워 클래스</span>
-                  <span id="price-1"></span>
-                </a>
-              </div>
-              <div class="special-class">
-                <div>
-                  <img id="image-2" src="/public/assets/flower_event_2.jpg" />
-                  <span id="text-2"></span>
-                  <span id="price-2"></span>
+            <div class="flower__change">
+              <button class="btn prev"></button>
+              <div class="flower-products">
+                <div class="event-class">
+                  <a>
+                    <img
+                      id="image-1"
+                      src="/public/assets/flower_event_1.jpeg"
+                    />
+                    <div class="flower__text">
+                      <span>새로운 일상을 경험하는</span>
+                      <span id="text-1">1월 플라워 클래스</span>
+                      <span id="price-1"></span>
+                    </div>
+                  </a>
                 </div>
-                <div>
-                  <img id="image-3" src="/public/assets/flower_event_3.jpg" />
-                  <span id="text-3"></span>
-                  <span id="price-3"></span>
+                <div class="special-class">
+                  <div class="flower__item">
+                    <img
+                      class="thumnail"
+                      id="image-2"
+                      src="/public/assets/flower_event_2.jpg"
+                    />
+                    <div class="summary">
+                      <span class="name" id="text-2"
+                        >오아시스 리스(2/21~2/27)</span
+                      >
+                      <span class="price" id="price-2">79,000원</span>
+                    </div>
+                  </div>
+                  <div class="flower__item">
+                    <img
+                      class="thumnail"
+                      id="image-3"
+                      src="/public/assets/flower_event_3.jpg"
+                    />
+                    <div class="summary">
+                      <span class="name" id="text-3"
+                        >클래식 핸드타이드(2/28~3/6)</span
+                      >
+                      <span class="price" id="price-3">79,000원</span>
+                    </div>
+                  </div>
                 </div>
               </div>
+              <button class="btn next"></button>
             </div>
           </div>
           <br />
-          <button class="btn next"><</button>
-          <button class="btn prev">></button>
         </section>
 
         <section>

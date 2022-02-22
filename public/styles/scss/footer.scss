@@ -117,13 +117,10 @@ nav.section-info__faq::after {
 }
 
 .section-info__etc {
-  display: block;
+  float: right;
   zoom: -1;
 
   @media (min-width: 1024px) {
-    position: absolute;
-    bottom: 82px;
-    right: 0;
   }
 }
 

@@ -20,18 +20,21 @@ const slideData = [
     title: "롱엔로우 센터피스 (2/3~3/1)",
     price: "89,000원",
     description: "1월 플라워 클래스",
+    tag: ["광화문점", "잠실점", "월계점", "구로점"],
   },
   {
     img: "/public/assets/flower_event_2.jpg",
     title: "오아시스 리스(2/21~2/27)",
     price: "79,000원",
     description: "1월 플라워 클래스",
+    tag: ["광화문점", "잠실점", "월계점", "구로점", "송파점", "부산동례점"],
   },
   {
     img: "/public/assets/flower_event_3.jpg",
     title: "클래식 핸드타이드(2/28~3/6)",
     price: "79,000원",
     description: "1월 플라워 클래스",
+    tag: ["잠실점", "월계점", "구로점", "송파점", "부산동례점"],
   },
 ];
 

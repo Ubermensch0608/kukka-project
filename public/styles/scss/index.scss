@@ -7,6 +7,7 @@
 @import "./banner.scss";
 @import "./flower.scss";
 @import "./video.scss";
+@import "./header.scss";
 
 body {
   background-color: white;
@@ -22,4 +23,5 @@ body {
 
 .section__container {
   width: 100%;
+  margin-top: 150px;
 }

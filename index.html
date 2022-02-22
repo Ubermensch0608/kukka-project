@@ -214,13 +214,18 @@
       }
     }
 
-    $(document).ready(function () {
+    window.onload = function () {
       $(".popup").show();
       getCookie();
-    });
+    };
 
-    $("#close-popup-btn").click(function () {
-      const isNoMoreToday = $(".close__check-box")[0].checked;
+    // $(document).ready(function () {
+    //   $(".popup").show();
+    //   getCookie();
+    // });
+    // $("#close-popup-btn")
+    document.getElementById("close-popup-btn").onclick = function () {
+      var isNoMoreToday = $(".close__check-box")[0].checked;
       function setCookieToday(name, value, expireDays) {
         var todayDate = new Date();
         todayDate.setDate(todayDate.getDate() + expireDays);
@@ -240,6 +245,6 @@
       } else {
         $(".popup").hide();
       }
-    });
+    };
   </script>
 </html>

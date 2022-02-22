@@ -87,13 +87,17 @@ nav.section-info__faq::after {
 
 .faq__center {
   padding: 5px 10px;
-  border: 1px solid#9b9b9b;
-  border-radius: 15px;
   cursor: pointer;
   font-size: 13px;
   line-height: 36px;
   font-weight: 300;
   letter-spacing: -0.2px;
+
+  -webkit-border-radius: 15px;
+  -moz-border-radius: 15px;
+  border-radius: 15px;
+  behavior: url(./PIE.htc);
+  border: 1px solid#9b9b9b;
 }
 
 .section-info__contact > dd:nth-child(3) {
